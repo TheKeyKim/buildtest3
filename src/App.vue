@@ -1,20 +1,14 @@
 <template>
   <div id="app">
     <div id="nav">
-      <NavMenu></NavMenu>
     </div>
     <router-view class="view" />
-    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import NavMenu from "./components/NavMenu.vue";
-import Footer from "./components/Footer.vue";
 export default{
   components : {
-    NavMenu,
-    Footer
   }
 }
 </script>
